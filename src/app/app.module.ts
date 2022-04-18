@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CardHoverDirective } from './card-hover.directive';
 import { RepoComponent } from './repo/repo.component';
 import { TimePipe } from './time.pipe';
+import { SearchFormComponent } from './search-form/search-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardHoverDirective,
     RepoComponent,
-    TimePipe
+    TimePipe,
+    SearchFormComponent
   ],
   imports: [
     BrowserModule,
