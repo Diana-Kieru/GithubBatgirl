@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardHoverDirective } from './card-hover.directive';
+import { RepoComponent } from './repo/repo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardHoverDirective
+    CardHoverDirective,
+    RepoComponent
   ],
   imports: [
     BrowserModule,
