@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardHoverDirective } from './card-hover.directive';
 import { RepoComponent } from './repo/repo.component';
+import { TimePipe } from './time.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardHoverDirective,
-    RepoComponent
+    RepoComponent,
+    TimePipe
   ],
   imports: [
     BrowserModule,
