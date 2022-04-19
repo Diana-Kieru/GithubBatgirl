@@ -1,5 +1,5 @@
 img {
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 a {
@@ -11,6 +11,3 @@ a {
     color: rgb(0, 89, 253);
 }
 
-.container-fluid {
-    background-color: rgb(43, 122, 226);
-}

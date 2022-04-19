@@ -18,7 +18,7 @@ An application whereby users can search for Github Accounts and Repositories.
 
 ### How to view the webpage.
 ****
-## GithubSearch
+## GithubBatgirl
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
 
