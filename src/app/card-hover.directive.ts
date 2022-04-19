@@ -1,21 +1,21 @@
 import { Directive, ElementRef, HostListener } from '@angular/core';
 
 @Directive({
-  selector: '[appCcCardHover]'
+  selector: '[appCardHover]'
 })
-export class CcCardHoverDirective {
+export class CardHoverDirective {
 
   constructor(private el: ElementRef) { }
 
   @HostListener('mouseenter')onMouseEnter() {
-    this.CcCardHover('gray');
+    this.CardHover('gray');
   }
 
   @HostListener('mouseleave') onMouseLeave() {
-    this.CcCardHover('white');
+    this.CardHover('white');
   }
 
-  private CcCardHover(color: string) {
+  private CardHover(color: string) {
     this.el.nativeElement.style.backgroundColor = color;
   }
 }

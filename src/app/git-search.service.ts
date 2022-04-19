@@ -1,8 +1,10 @@
-import { Repository } from 'src/app/repository-class/repository';
+
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { User } from '../user-class/user';
+
 import { environment } from 'src/environments/environment';
+import { User } from './user';
+import { Repository } from './repository';
 
 
 @Injectable({

@@ -5,3 +5,4 @@ describe('Repository', () => {
     expect(new Repository()).toBeTruthy();
   });
 });
+
